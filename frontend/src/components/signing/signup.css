@@ -1,0 +1,62 @@
+.signup
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.left-pane {
+    background: #fff;
+}
+
+.right-pane {
+    background: #fff;
+    justify-content: center !important;
+}
+
+.vertical-line {
+    border-left: 2px solid #222;
+    height: 60%;
+    width: 0;
+}
+
+.column
+{
+    height:100vh;
+}
+
+.sign-up-heading
+{
+    font-size:100px;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+.col-left
+{
+    border-left:1px solid black;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    font-size: 1.2rem;
+}
+
+.signup-btn {
+    background-color: rgb(240, 18, 84);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 0;
+    font-size: 1.2rem;
+    transition: background 0.2s;
+}
+.signup-btn:hover, .signup-btn:focus {
+    background-color: #c4004e;
+    color: #fff;
+}
